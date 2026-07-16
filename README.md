@@ -4,6 +4,8 @@
 
 默认使用内置 Mock Provider，不需要密钥，也不会调用外部服务。项目同时提供真实 GPT Image 2 与本地 ComfyUI 服务端适配器，但不会索取、保存或在前端暴露密钥。
 
+> **English summary:** A local eight-view character asset workbench with Mock, GPT Image, and ComfyUI adapters.
+
 > 来源与边界：产品流程受[抖音视频 7662431494996004130](https://www.douyin.com/video/7662431494996004130)启发；仓库没有复制该视频的画面、音频、界面资产或未公开源码。ComfyUI、OpenAI、Hunyuan3D 和 npm 依赖的具体关系见 [ATTRIBUTION.md](./ATTRIBUTION.md)。
 
 ## 已实现
