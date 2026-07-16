@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">内置角色参考图</title>
+  <desc id="desc">珊瑚橙夹克、深色工装裤和头戴设备的中性科幻角色</desc>
+  <rect width="900" height="1200" fill="#dfe3e4"/>
+  <circle cx="450" cy="315" r="152" fill="#e0a37e"/>
+  <path d="M302 310c0-120 70-180 158-180 105 0 164 74 148 201-42-37-91-55-145-55-56 0-109 12-161 34Z" fill="#343b42"/>
+  <path d="M365 316c17-11 35-16 54-13M480 303c20-4 40 2 55 16" fill="none" stroke="#343b42" stroke-width="13" stroke-linecap="round"/>
+  <path d="M420 392c20 13 43 13 64 0" fill="none" stroke="#8b4d43" stroke-width="10" stroke-linecap="round"/>
+  <path d="M265 575c46-80 107-119 185-119 79 0 141 40 187 119l51 324H212Z" fill="#dc6b46"/>
+  <path d="M450 458v429M286 611l164 101 164-101" fill="none" stroke="#b4492d" stroke-width="18"/>
+  <path d="M211 637 103 930l111 38 112-285M689 637l108 293-111 38-112-285" fill="#343b42"/>
+  <path d="M318 887h123v276H252Zm141 0h123l66 276H459Z" fill="#2d343a"/>
+  <path d="M232 1144h216v41H204Zm220 0h216l28 41H452Z" fill="#1f2529"/>
+  <path d="M292 233c-42 15-68 53-68 100v77h59V286Zm316 0c42 15 68 53 68 100v77h-59V286Z" fill="#606a70"/>
+  <circle cx="253" cy="368" r="29" fill="#ed8b66"/>
+  <circle cx="647" cy="368" r="29" fill="#ed8b66"/>
+  <rect x="350" y="537" width="200" height="52" rx="14" fill="#f0a27f"/>
+  <path d="m420 537 30 34 30-34" fill="none" stroke="#343b42" stroke-width="12"/>
+</svg>

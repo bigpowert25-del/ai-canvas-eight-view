@@ -1,0 +1,18 @@
+{
+  "1": { "class_type": "LoadImage", "inputs": { "image": "" }, "_meta": { "title": "01 Front" } },
+  "2": { "class_type": "PreviewImage", "inputs": { "images": ["1", 0] }, "_meta": { "title": "01 Front Preview" } },
+  "3": { "class_type": "LoadImage", "inputs": { "image": "" }, "_meta": { "title": "02 Front Right" } },
+  "4": { "class_type": "PreviewImage", "inputs": { "images": ["3", 0] }, "_meta": { "title": "02 Front Right Preview" } },
+  "5": { "class_type": "LoadImage", "inputs": { "image": "" }, "_meta": { "title": "03 Right" } },
+  "6": { "class_type": "PreviewImage", "inputs": { "images": ["5", 0] }, "_meta": { "title": "03 Right Preview" } },
+  "7": { "class_type": "LoadImage", "inputs": { "image": "" }, "_meta": { "title": "04 Back Right" } },
+  "8": { "class_type": "PreviewImage", "inputs": { "images": ["7", 0] }, "_meta": { "title": "04 Back Right Preview" } },
+  "9": { "class_type": "LoadImage", "inputs": { "image": "" }, "_meta": { "title": "05 Back" } },
+  "10": { "class_type": "PreviewImage", "inputs": { "images": ["9", 0] }, "_meta": { "title": "05 Back Preview" } },
+  "11": { "class_type": "LoadImage", "inputs": { "image": "" }, "_meta": { "title": "06 Back Left" } },
+  "12": { "class_type": "PreviewImage", "inputs": { "images": ["11", 0] }, "_meta": { "title": "06 Back Left Preview" } },
+  "13": { "class_type": "LoadImage", "inputs": { "image": "" }, "_meta": { "title": "07 Left" } },
+  "14": { "class_type": "PreviewImage", "inputs": { "images": ["13", 0] }, "_meta": { "title": "07 Left Preview" } },
+  "15": { "class_type": "LoadImage", "inputs": { "image": "" }, "_meta": { "title": "08 Front Left" } },
+  "16": { "class_type": "PreviewImage", "inputs": { "images": ["15", 0] }, "_meta": { "title": "08 Front Left Preview" } }
+}

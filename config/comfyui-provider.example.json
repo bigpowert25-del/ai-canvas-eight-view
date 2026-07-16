@@ -1,0 +1,49 @@
+{
+  "baseUrl": "http://127.0.0.1:8188",
+  "clientId": "ai-canvas-local",
+  "contact": {
+    "label": "ComfyUI contact-sheet workflow",
+    "workflowApiPath": "./workflows/your-contact-sheet_api.json",
+    "outputNodeIds": ["9"],
+    "bindings": {
+      "positivePrompt": ["6.inputs.text"],
+      "negativePrompt": ["7.inputs.text"],
+      "referenceImage": ["10.inputs.image"],
+      "seed": ["3.inputs.seed"],
+      "steps": ["3.inputs.steps"],
+      "width": ["5.inputs.width"],
+      "height": ["5.inputs.height"],
+      "outputPrefix": ["9.inputs.filename_prefix"]
+    }
+  },
+  "view": {
+    "label": "ComfyUI single-view repair workflow",
+    "workflowApiPath": "./workflows/your-single-view_api.json",
+    "outputNodeIds": ["9"],
+    "bindings": {
+      "positivePrompt": ["6.inputs.text"],
+      "negativePrompt": ["7.inputs.text"],
+      "referenceImage": ["10.inputs.image"],
+      "contextImage": ["11.inputs.image"],
+      "seed": ["3.inputs.seed"],
+      "steps": ["3.inputs.steps"],
+      "width": ["5.inputs.width"],
+      "height": ["5.inputs.height"],
+      "outputPrefix": ["9.inputs.filename_prefix"]
+    }
+  },
+  "handoff": {
+    "label": "AI Canvas eight-view loader",
+    "workflowApiPath": "./workflows/eight-view-loader_api.json",
+    "bindings": {
+      "viewFront": ["1.inputs.image"],
+      "viewFrontRight": ["3.inputs.image"],
+      "viewRight": ["5.inputs.image"],
+      "viewBackRight": ["7.inputs.image"],
+      "viewBack": ["9.inputs.image"],
+      "viewBackLeft": ["11.inputs.image"],
+      "viewLeft": ["13.inputs.image"],
+      "viewFrontLeft": ["15.inputs.image"]
+    }
+  }
+}
